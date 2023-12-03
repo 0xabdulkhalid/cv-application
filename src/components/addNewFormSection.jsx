@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import FramerButton from './framerButton'
+import Button from './button'
 import SectionForm from './sectionForm'
 import Plus from '../assets/plus.svg'
 
@@ -58,12 +58,12 @@ export default function AddNewFormSection({
       ))}
 
       {!addNew.isActive && (
-        <FramerButton
+        <Button
           tailwindClasses='capitalize bg-white w-full rounded-xl shadow-md p-3 text-base rounded-t-none hover:rounded-xl'
           onClickFunction={toggleAddNew}
         >
           Add New <img src={Plus} className='inline ml-1' alt='' />
-        </FramerButton>
+        </Button>
       )}
     </div>
   )

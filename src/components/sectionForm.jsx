@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import formSections from '../data/formSections'
-import FramerButton from './framerButton'
+import Button from './button'
 import Trash from '../assets/trash.svg'
 
 export default function SectionForm({
@@ -84,19 +84,19 @@ export default function SectionForm({
       ))}
       {!isGeneralForm && (
         <div className='flex flex-row-reverse gap-5 mt-2 font-bold'>
-          <FramerButton
+          <Button
             tailwindClasses={`bg-blue-100 outline-[#bbd8f9] ${defaultStyles}`}
             onClickFunction={saveSection}
           >
             Save
-          </FramerButton>
+          </Button>
 
-          <FramerButton
+          <Button
             tailwindClasses={`bg-red-100 outline-red-200 ${defaultStyles}`}
             onClickFunction={cancelSection}
           >
             Cancel
-          </FramerButton>
+          </Button>
         </div>
       )}
     </form>
@@ -104,9 +104,9 @@ export default function SectionForm({
     <div className='flex justify-between bg-white capitalize w-full border-2 mb-1 shadow-md p-3 px-4 pl-12 text-lg'>
       <p>{formData[`${section}-${sectionKey}`][formSections[section][0]]}</p>
 
-      <FramerButton onClickFunction={removeSelection}>
+      <Button onClickFunction={removeSelection}>
         <img src={Trash} alt='' />
-      </FramerButton>
+      </Button>
     </div>
   )
 }

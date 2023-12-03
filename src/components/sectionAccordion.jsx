@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import FramerButton from './framerButton'
+import Button from './button'
 import Arrow from '../assets/arrow-down.svg'
 import AddNewFormSection from './addNewFormSection'
 
@@ -17,7 +17,7 @@ export default function SectionAccordion({
 
   return (
     <div className='capitalize mb-3 lg:m-0 shadow-md rounded-xl'>
-      <FramerButton
+      <Button
         tailwindClasses={`flex bg-white capitalize w-full relative z-10 items-center relative rounded-xl p-4 pl-12 font-bold text-xl ${
           accordion && 'rounded-b-none shadow-sm mb-1'
         } `}
@@ -40,7 +40,7 @@ export default function SectionAccordion({
           aria-hidden='true'
           alt=''
         />
-      </FramerButton>
+      </Button>
 
       <AddNewFormSection
         sectionName={title}
