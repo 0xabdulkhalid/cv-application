@@ -10,7 +10,7 @@ export default function SectionAccordion({
   formData,
   isWrapped = true,
 }) {
-  const [accordion, setAccordion] = useState(true)
+  const [accordion, setAccordion] = useState(!isWrapped)
   function updateAccordion() {
     setAccordion(!accordion)
   }
