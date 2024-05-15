@@ -11,7 +11,7 @@
 <br>
   <p>
     ❯ &nbsp;
-    <a href="https://cv-application-0xabdulkhalid.vercel.app/">View Demo</a>
+    <a href="https://0xabdulkhalid.github.io/cv-application/">View Demo</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/0xabdulkhalid/cv-application/issues">Report Bug</a>
     &nbsp;·&nbsp;
@@ -46,7 +46,7 @@
 ## Installation
 
 > [!NOTE]  
-> If you prefer not to install it locally, you can also access the [live demo](https://cv-application-0xabdulkhalid.vercel.app/) version
+> If you prefer not to install it locally, you can also access the [live demo](https://0xabdulkhalid.github.io/cv-application/) version
 
 To set up the CV Application locally, follow these steps:
 
@@ -86,7 +86,7 @@ To set up the CV Application locally, follow these steps:
   | |
   | <img src='./design/pagespeed-insights-score.svg' alt=''> |
   | |
-  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-cv-application-0xabdulkhalid-vercel-app/02v5pjdoui?form_factor=mobile) to get live score |
+  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-0xabdulkhalid-github-io-cv-application/hijg2l98gu?form_factor=mobile) to get live score |
   ||
 
 <br>
